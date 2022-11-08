@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='styles.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Poppins:wght@100;200;300&display=swap" rel="stylesheet">
+    <title>Drawing Club</title>
+</head>
+
+<body>
+    <main class="main">
+      <div class="border">
+        <div class="header">
+          <h1>Drawing Club</h1>
+        </div>  
+        <div class="navbar">
+            <div class="about"><p><a href="#about1">About</a></p></div>
+            <div class="drawing"><p><a href="#drawing1">Drawing</a></p></div>
+            <div class="subs"><p><a href="#subs1">Subscribe</a></p></div>
+            <div class="team"><p><a href="#team1">Team</a></p></div>
+        </div>
+
+        <div class="dropdown">
+          <button class="dropbtn">Menu</button>
+          <div class="dropdown-content">
+          <a href="#about1">About</a>
+          <a href="#drawing1">Drawing</a>
+          <a href="#agenda1">Agenda</a>
+          <a href="#subs1">Subscribe</a>
+          </div>
+        </div>
+
+      <section class="about1" id="about1">
+          <div class="description">
+              <h3>About</h3>
+            <div class="types">
+              <h4>Who are we?</h4>    
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Etiam malesuada pellentesque leo ut viverra. 
+                Vivamus in libero non nisl pretium feugiat vel nec ante.
+              </p>
+              <h4>What do we do?</h4>
+              <p>
+                Aenean ac porta tellus. 
+                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>   
+            </div>
+          </div>
+          <div class="description-img">
+          </div>
+      </section>
+
+
+        <section class="drawing1" id="drawing1">
+
+           <div class="drawing-img"><!--<img src="images/ramen.jpg">--> </div>
+
+           <div class="description">
+
+              <h3>Drawing</h3>
+              <div class="types">
+                <h4>Pencil Drawings</h4>    
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Etiam malesuada pellentesque leo ut viverra. 
+                Vivamus in libero non nisl pretium feugiat vel nec ante.
+               </p>
+
+                <h4>Urban Sketches</h4>
+                <p>
+                  Aenean ac porta tellus. 
+                  Pellentesque habitant morbi 
+                  tristique senectus et netus et malesuada fames ac turpis egestas.
+                </p>   
+              </div>
+           </div>
+
+        </section>
+
+        <section class="form" id="subs1">
+          <h3>Subscribe</h3><br>
+          <form action="">
+            <input type="text" id="fname" name="fname" placeholder="First name"><br>
+            <input type="text" id="lname" name="lname" placeholder="Last name"><br>
+            <input type="email" id="email" name="email" placeholder="Email Adress"><br>
+            <input type="date" id="birthday" name="birthday" placeholder="Birthday"><br>
+            <input type="text" id="username" name="username" placeholder="username"><br>
+            <input type="password" id="pass" name="password" minlength="8" required placeholder="password"><br>
+            <br>
+            <button type="submit" form="nameform" value="Submit">Continue</button>
+          </form> 
+
+        </section>
+
+       
+
+        <section class="team-container" id="team1">
+            <h4>Meet our team</h4>
+            <div class="ourteam">
+                <div class="teammate">
+                  <img src="images/chef.jpg" />
+                  <p>Team Member One</p>
+                </div>
+                
+                <div class="teammate">
+                  <img src="images/chef2.jpg" />
+                  <p>team tember 2</p>
+                </div>
+
+                <div class="teammate">
+                  <img src="images/chef3.jpg" />
+                  <p>team member 3</p>
+                </div>
+            </div>
+ 
+
+        </section>
+
+        <footer class="contact">
+
+            <div class="copyright">
+                <h5><a href="https://www.codecademy.com/" class="special" target="_blank">Codecademy</a> 
+                    Front End Engineering Career - Responsive Website Project / <a href="https://github.com/eliseflaneuse" class="special" target="_blank">Elise Flaneuse</a> / 2022 </h5>
+              </div>
+        </footer>
+
+      </div>
+    </main>
+</body>
+</html>
